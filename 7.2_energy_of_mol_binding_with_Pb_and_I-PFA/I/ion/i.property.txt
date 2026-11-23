@@ -1,0 +1,119 @@
+*************************************************
+******************* ORCA 6.1.0 ******************
+*************************************************
+$Calculation_Status
+   &GeometryIndex 1
+   &version [&Type "String"] "6.1.0"
+   &progName [&Type "String"] "LeanSCF"
+   &Status [&Type "String"] "NORMAL TERMINATION"
+$End
+$Geometry
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 1
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(1,4), &Units "Bohr"] 
+              I      1.247213465826   -6.694431344427    0.001981831386
+$End
+$SCF_Energy
+   &GeometryIndex 1
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.9779897814048223e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$DFT_Energy
+   &GeometryIndex 1
+   &nAlphaEl [&Type "Integer"] 13
+   &nBetaEl [&Type "Integer"] 13
+   &nTotalEl [&Type "Integer"] 26
+   &finalEn [&Type "Double"]      -2.9779897814048223e+02  "No Van der Waals correction"
+   &eExchange [&Type "Double"]      -1.6981513201177123e+01
+   &eCorr [&Type "Double"]      -1.1709133017388345e+00
+   &eXC [&Type "Double"]      -1.8152426502915958e+01
+   &eCNL [&Type "Double"]       0.0000000000000000e+00
+$End
+$SCF_Timings
+   &GeometryIndex 1
+   &TOTAL [&Type "Double"]       1.0325939999999999e+01
+   &PREP [&Type "Double"]       5.5916500000000002e-01
+   &FOCK [&Type "Double"]       5.9485250000000001e+00
+   &DENS [&Type "Double"]       9.4195299999999804e-01
+   &ETOT [&Type "Double"]       6.0985200000000139e-01
+   &TRAFO [&Type "Double"]       1.6749599999999987e-01
+   &DIIS [&Type "Double"]       1.4068940000000001e+00
+   &SOSCF [&Type "Double"]       3.2769100000000062e-01
+   &XC [&Type "Double"]       1.4256949999999993e+00
+   &FOCKSTART [&Type "Double"]       3.8012099999999938e-01
+   &INT_PREP [&Type "Double"]       2.0000000002795559e-06
+   &INT_BF [&Type "Double"]       7.6380000000036974e-03
+   &INT_DENS [&Type "Double"]       2.3619999999978658e-03
+   &INT_DENSIO [&Type "Double"]       2.0592480799999998e+02
+   &INT_FUNC [&Type "Double"]       2.9459999999998931e-03
+   &INT_POT [&Type "Double"]       4.0669999999947137e-03
+   &INT_POTIO [&Type "Double"]       2.6200000000036194e-03
+   &INT_SUM [&Type "Double"]       2.4932999999999539e-02
+   &SPLITRIJ [&Type "Double"]       1.3976090000000001e+00
+   &COSX [&Type "Double"]       1.4180509999999988e+00
+$End
+$VdW_Correction
+   &GeometryIndex 1
+   &vdW [&Type "Double"]       0.0000000000000000e+00
+$End
+$Single_Point_Data
+   &GeometryIndex 1
+   &FinalEnergy [&Type "Double"]      -2.9779897814048223e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$Calculation_Info
+   &GeometryIndex 1
+   &Mult [&Type "Integer"] 1
+   &Charge [&Type "Integer"] -1
+   &NumOfAtoms [&Type "Integer"] 1
+   &NumOfElectrons [&Type "Integer"] 26
+   &NumOfBasisFuncts [&Type "Integer"] 50
+   &NumOfAuxCBasisFuncts [&Type "Integer"] 0
+   &NumOfAuxJBasisFuncts [&Type "Integer"] 58
+   &NumOfAuxJKBasisFuncts [&Type "Integer"] 0
+   &NumOfCABSBasisFuncts [&Type "Integer"] 0
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 1
+   &dipoleMagnitude [&Type "Double", &Units "a.u."]       4.2803620673145886e-07
+   &dipoleElecContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.3294061122063812e-07
+1                                      2.4808827930590378e-07
+2                                      1.0400793169865627e-07
+   &dipoleNucContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &dipoleTotal [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                     -3.3294070558959521e-07
+1                                      2.4808836812374575e-07
+2                                      1.0400789602840479e-07
+   &doAtomicDipole [&Type "Boolean"] false
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$Calculation_Timings
+   &GeometryIndex 1
+   &GTOINT [&Type "Double"]       1.5114719999999999e+00
+   &SCF [&Type "Double"]       1.4791972000000001e+01
+   &PROP [&Type "Double"]       6.4917400000000214e-01
+   &SUM [&Type "Double"]       1.6952618000000005e+01
+$End

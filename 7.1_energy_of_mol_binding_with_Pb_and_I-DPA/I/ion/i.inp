@@ -1,0 +1,6 @@
+! B3LYP D3 def2-TZVP def2/J RIJCOSX noautostart miniprint nopop
+%maxcore  4000
+%pal nprocs  48 end
+* xyz   -1   1
+I      0.83174575   -2.99563776    1.41518665
+ *
